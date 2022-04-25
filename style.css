@@ -1,0 +1,112 @@
+a{
+    text-decoration: none;
+    font-size: 50px;
+}
+
+a:link{
+    color: blue;
+
+}
+a:visited{
+    color: green;
+
+}
+a:hover{
+    color: red; 
+
+}
+a:active{
+    color: purple;
+}
+h1{
+    font-weight:60px;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+p{
+    font-size: 40px;
+    /* font-weight: bold; */
+    /* font-style: italic; */
+    font-family: 'Tapestry', cursive;
+
+    /* { cursor: properties;} */
+
+}
+#cursor{
+    border:1px solid red;
+    font-size: 10px;
+    /* padding-left: 50px; */
+    text-align: center;
+    background-color: plum;
+    /* cursor: alias ; */
+    /* cursor: all-scroll; */
+    /* cursor: cell; */
+    /* cursor: col-resize; */
+    /* cursor: copy; */
+    /* cursor: crosshair; */
+    /* cursor: grab; */
+    /* cursor: e-resize; */
+    /* cursor: pointer; */
+    /* cursor: help; */
+    /* cursor: -webkit-zoom-out; */
+    /* cursor: -webkit-zoom-in; */
+    /* cursor: wait; */
+    /* cursor: not-allowed; */
+    cursor: progress;
+    
+}
+
+h2{
+    border: 1px solid purple;
+    width: 500px;
+    margin: 20px 20px;
+    padding: 30px 30px;
+    background-color: rgb(216, 112, 216);
+    box-shadow: 10px 10px 5px 3px gray, -10px 8px 5px 4px rgb(43, 226, 141);
+}
+
+#color-box{
+    background-color: rgb(34, 0, 128);
+    height: 200px;
+    width: 400px;
+    margin-bottom: 20px;
+    opacity: 0.5;
+}
+
+img:hover{
+    /* opacity: 0.9; */
+    filter: brightness(80%);
+    /* filter: contrast(80%); */
+}
+/* {gradient Style} */
+#gradient{
+    height: 300px;
+    border: 1px solid gray;
+    background-image: linear-gradient(180deg,rgb(20, 228, 255),blue);
+}
+
+#overflow{
+    height: 500px;
+    width: 500px;
+    background-color: bisque;
+    border: 1px solid red;
+     overflow: auto;
+     resize: none;
+     /* resize: both; */
+}
+
+ul{
+    /* list-style-type:circle; */
+    list-style-image: url('img.png');
+    list-style-position:inside;
+
+}
+ol{
+    list-style-type: upper-alpha;
+    list-style-position: inside;
+}
+li{
+    border: 1px solid black;
+}
